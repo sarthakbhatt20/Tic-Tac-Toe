@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body
+    style="
+      font-family: 'Trebuchet MS', sans-serif;
+      background-image: linear-gradient(rgb(240, 238, 233), rgb(142, 224, 198));
+    "
+  >
+    <h1 id="h1"><center>Rock Paper Scissors</center></h1>
+    <hr />
+    <span
+      ><b><center>Why is Rock Paper Scissors played?</center></b><br />
+      This game is played by children and adults and is popular all over the
+      world. Apart from being a game played to pass time, the game is usually
+      played in situations where something has to be chosen. It is similar in
+      that way to other games like flipping the coin, throwing dice or drawing
+      straws. There is no room for cheating or for knowing what the other person
+      is going to do so the results are usually very satisfying with no room for
+      fighting or error.<br /><br />
+      <hr />
+      <b><center>Rules:</center></b>
+
+      The outcome of the game is determined by 3 simple rules:
+      <ul>
+        <li>Rock wins against scissors.</li>
+        <li>Scissors win against paper.</li>
+        <li>Paper wins against rock.</li>
+      </ul>
+    </span>
+    <div id="main-game">
+      <center>
+        <h2>Computer choice: <span id="computer-choice"></span></h2>
+        <h2>Your choice: <span id="your-choice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+
+        <button id="rock" onclick="rock()">rock</button>
+        <button id="paper" onclick="paper()">paper</button>
+        <button id="scissors" onclick="scissors()">scissors</button>
+      </center>
+    </div>
+    <script src="js1.js" charset="utf-8"></script>
+  </body>
+</html>
